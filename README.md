@@ -41,6 +41,7 @@ Explorar e entender padrões de comportamento de transações fraudulentas, aval
 
 ![Dashboard](images/painel-fraud-data-analysis.png)
 
+---
 
 ## 📁 **Estrutura do projeto**
 ```plaintext
