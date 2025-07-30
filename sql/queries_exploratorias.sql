@@ -21,5 +21,13 @@ GROUP BY minuto
 ORDER BY minuto
 LIMIT 60;
 
-
+-- Distribuição de valores por classe
+SELECT 
+  Class,
+  COUNT(*) AS total_transacoes,
+  ROUND(AVG(Amount),2) AS valor_medio,
+  ROUND(MAX(Amount),2) AS maior_valor,
+  ROUND(MIN(Amount),2) AS menor_valor
+FROM sample_creditcard
+GROUP BY Class;
 
