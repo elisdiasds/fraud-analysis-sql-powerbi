@@ -1,14 +1,21 @@
 # 📊 Análise Exploratória de Fraudes em Transações de Cartão de Crédito usando SQL e Power BI
 
-Projeto do portfólio para análise de dados de transações de cartão de crédito com foco na **identificação de padrões de fraude e chargebacks**, utilizando MySQL Workbench e Power BI.
+Este projeto foi desenvolvido como parte do meu portfólio para analisar padrões de fraudes em transações de cartão de crédito.Utilizei SQL (MySQL Workbench) para extração e preparação dos dados e Power BI para visualização.
 
 ---
 
 ## 🎯 **Objetivo**
-Explorar dados de transações de cartão de crédito para:
-- Entender a distribuição das fraudes
-- Identificar padrões por valor, horário, tipo de transação e bandeira do cartão
-- Criar dashboards interativos que ajudem a monitorar indicadores de fraude
+Explorar e entender padrões de comportamento de transações fraudulentas, avaliando:
+
+- Volume total de transações
+
+- Ticket médio de fraudes vs. transações normais
+
+- Valor total fraudado
+
+- Distribuição das fraudes ao longo do tempo
+
+
 
 ---
 
@@ -35,9 +42,34 @@ Explorar dados de transações de cartão de crédito para:
 fraud-analysis-sql-powerbi/
 ├── data/
 │   ├── raw/                # Dataset original e amostras
-│   └── processed/          # Arquivos tratados (opcional)
-├── sql/                    # Scripts SQL: create table, consultas
+│   └── processed/          # consultas extraídas
+├── sql/                    # Scripts SQL
 ├── powerbi/                # Dashboard .pbix
 ├── images/                 # Prints do dashboard
 ├── notebooks/              # Script para gerar amostra do arquivo original   
-└── README.md
+└── README.md               # Documentação do projeto
+```
+
+## 🛠️ **Como foi feito**
+
+1. **Importação do dataset original** no MySQL Workbench
+2. **Limpeza e geração de amostras** com Google Colab
+3. **Criação de consultas SQL** para obter:
+   - Total de transações e fraudes por minuto
+   - Valor total fraudado
+   - Ticket médio por tipo de transação
+4. **Importação das consultas no Power BI**
+5. **Construção do dashboard** com indicadores e gráficos
+
+---
+
+## ✅ Conclusão
+Com esta análise, foi possível entender melhor como as fraudes acontecem, percebendo diferenças no ticket médio e nos horários em que elas costumam ocorrer.
+O uso do SQL ajudou a organizar e filtrar os dados, enquanto o Power BI facilitou a visualização dessas informações de forma clara.
+
+Esse projeto mostra como a análise de dados pode ajudar a identificar padrões suspeitos e apoiar decisões para reduzir fraudes em transações com cartão de crédito.
+
+---
+
+## 🙋‍♀️ **Sobre mim**
+Elisângela Dias Silva • Dados & Insights | [LinkedIn](https://www.linkedin.com/in/elisangeladias-dados/) • [Kaggle](https://www.kaggle.com/elisdias)
