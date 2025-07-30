@@ -31,3 +31,12 @@ SELECT
 FROM sample_creditcard
 GROUP BY Class;
 
+
+-- Ticket médio de fraude
+SELECT 
+	Class, 
+	COUNT(*) AS total_transacoes,
+	SUM(Amount) AS valor_total,
+	AVG(Amount) AS ticket_medio
+FROM sample_creditcard
+GROUP BY Class;
