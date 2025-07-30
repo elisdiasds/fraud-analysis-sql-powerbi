@@ -37,6 +37,11 @@ Explorar e entender padrões de comportamento de transações fraudulentas, aval
 
 ---
 
+## 📊 **Visão geral do dashboard**
+
+![Dashboard](images/painel-fraud-data-analysis.png)
+
+
 ## 📁 **Estrutura do projeto**
 ```plaintext
 fraud-analysis-sql-powerbi/
