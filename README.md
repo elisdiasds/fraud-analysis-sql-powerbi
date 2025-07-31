@@ -78,4 +78,4 @@ Esse projeto mostra como a análise de dados pode ajudar a identificar padrões 
 ---
 
 ## 🙋‍♀️ **Sobre mim**
-Elisângela Dias Silva • Dados & Insights | [LinkedIn](https://www.linkedin.com/in/elisangeladias-dados/) • [Kaggle](https://www.kaggle.com/elisdias)
+Elisângela Dias • Dados & Insights | [LinkedIn](https://www.linkedin.com/in/elisangeladias-dados/) • [Kaggle](https://www.kaggle.com/elisdias)
